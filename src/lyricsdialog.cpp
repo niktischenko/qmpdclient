@@ -29,6 +29,16 @@ LyricsDialog::LyricsDialog(QWidget *parent) : QDialog(parent) {
 	setupUi(this);
 	lyricsBrowser->setOpenLinks(false);
 	m_http = new QHttp("www.lyricsplugin.com", 80, this);
+	if (Config::instance()->proxyEnabled()) {
+		QString address = Config::instance()->proxyAddress();
+		int port = Config::instance()->proxyPort();
+		if (Config::instance()->proxyAuthorization()) {
+			QString login = Config::instance()->proxyLogin();
+			QString password = Config::instance()->proxyPassword();
+			m_http->setProxy(address, port, login, password);
+		}
+		m_http->setProxy(address, port);
+	}
 	connect(m_http, SIGNAL(requestFinished(int,bool)), this, SLOT(gotResponse(int,bool)));
 }
 
