@@ -44,6 +44,14 @@ public:
 	QList<ServerInfo> servers() const;
 	ServerInfo server(const QString & = QString()) const;
 
+        // Proxy
+	bool proxyEnabled() const;
+	QString proxyAddress() const;
+	int proxyPort() const;
+	bool proxyAuthorization() const;
+	QString proxyLogin() const;
+	QString proxyPassword() const;
+
 	// Look and feel
 	bool alternatingRowColors() const;
 	bool autoResizeColumns() const;
@@ -138,6 +146,14 @@ public slots:
 	void setReconnect(bool);
 	void setReconnectTime(int);
 	void setTimeoutTime(int);
+
+        // Proxy
+        void setProxyEnabled(bool enabled);
+        void setProxyAddress(QString address);
+        void setProxyPort(int port);
+        void setProxyAuthorization(bool authorization);
+        void setProxyLogin(QString login);
+        void setProxyPassword(QString password);
 
 	// Look and feel
         void setSaveTransientSettings(bool);

@@ -151,6 +151,56 @@ int Config::timeoutTime() const {
 	return value("/mpd/timeout", 10).toInt();
 }
 
+// Proxy
+
+bool Config::proxyEnabled() const {
+	return value("/proxy/enabled").toBool();
+}
+
+QString Config::proxyAddress() const {
+	return value("/proxy/address").toString();
+}
+
+int Config::proxyPort() const {
+	return value("/proxy/port").toInt();
+}
+
+bool Config::proxyAuthorization() const {
+	return value("/proxy/authorization").toBool();
+}
+
+QString Config::proxyLogin() const {
+	return value("/proxy/login").toString();
+}
+
+QString Config::proxyPassword() const {
+	return value("/proxy/password").toString();
+}
+
+void Config::setProxyEnabled(bool enabled) {
+	setValue("proxy/enabled", enabled);
+}
+
+void Config::setProxyAddress(QString address) {
+	setValue("/proxy/address", address);
+}
+
+void Config::setProxyPort(int port) {
+	setValue("/proxy/port", port);
+}
+
+void Config::setProxyAuthorization(bool authorization) {
+	setValue("/proxy/authorization", authorization);
+}
+
+void Config::setProxyLogin(QString login) {
+	setValue("/proxy/login", login);
+}
+
+void Config::setProxyPassword(QString password) {
+	setValue("/proxy/password", password);
+}
+
 // Look and feel settings
 void Config::setAlternatingRowColors(bool a) {
 	if (a != alternatingRowColors())
