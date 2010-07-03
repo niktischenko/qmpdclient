@@ -44,6 +44,7 @@ private slots:
 	void on_patternLine_textChanged(const QString &);
 	void on_testLine_textChanged(const QString &);
 	void on_upButton_clicked();
+        void on_proxyAuthorization_changed(int);
 	void crossfadeChanged();
 	void iconsetChanged(QListWidgetItem *);
 	void localeChanged(QListWidgetItem *);
@@ -54,10 +55,12 @@ private slots:
 	void hashLastFmPassword();
 	void setLastFmSlider(int);
 	void setLastFmSpiner(int);
+	void saveProxySettings();
 
 private:
 	void initCategoryList();
 	void initServerPage();
+	void initProxyPage();
 	void initConnectionPage();
 	void initCoverArtPage();
 	void initLookAndFeelPage();

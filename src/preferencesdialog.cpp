@@ -50,6 +50,7 @@ struct PreferencesDialogPrivate {
 	QTreeWidgetItem *shortcutsItem, *stylesItem, *notificationsItem;
 	QTreeWidgetItem *tagguesserItem, *trayIconItem, *coverArtItem;
 	QTreeWidgetItem *lastFmItem;
+	QTreeWidgetItem *proxyItem;
 };
 
 PreferencesDialog::PreferencesDialog(QWidget *parent) : QDialog(parent), d(new PreferencesDialogPrivate) {
@@ -79,6 +80,7 @@ PreferencesDialog::PreferencesDialog(QWidget *parent) : QDialog(parent), d(new P
 	initTagGuesserPage();
 	initTrayIconPage();
 	initLastFmPage();
+	initProxyPage();
 
 	updateTranslation();
 	categoryList->setCurrentItem(d->connectionItem);
@@ -117,6 +119,9 @@ void PreferencesDialog::initCategoryList() {
 	d->trayIconItem->setIcon(0, QIcon(":/icons/qmpdclient16.png"));
 	d->lastFmItem = new QTreeWidgetItem(categoryList);
 	d->lastFmItem->setIcon(0, QIcon(":/icons/as.png"));
+	d->proxyItem = new QTreeWidgetItem(categoryList);
+	d->proxyItem->setText(0, "Proxy settings");
+	d->proxyItem->setIcon(0, QIcon(":/icons/proxy.png"));
 
 	// Make item-index relations
 	for (int i = 0, index = 0; i < categoryList->topLevelItemCount(); i++, index++) {
@@ -662,9 +667,57 @@ void PreferencesDialog::hashLastFmPassword() {
 }
 
 void PreferencesDialog::setLastFmSlider(int value) {
-    lastFmScrobblerTimerSlider->setValue(value);
+	lastFmScrobblerTimerSlider->setValue(value);
 }
 
 void PreferencesDialog::setLastFmSpiner(int value) {
-    lastFmScrobblerTimerSpiner->setValue(value);
+	lastFmScrobblerTimerSpiner->setValue(value);
+}
+
+void PreferencesDialog::initProxyPage() {
+	bool enabled = Config::instance()->proxyEnabled();
+	proxyEnabled->setChecked(enabled);
+	proxyAddress->setEnabled(enabled);
+	proxyAuthorization->setEnabled(enabled);
+	proxyLogin->setEnabled(enabled);
+	proxyPassword->setEnabled(enabled);
+	proxyPort->setEnabled(enabled);
+	
+	if (enabled) {
+		proxyAddress->setText(Config::instance()->proxyAddress());
+		proxyPort->setText(QVariant(Config::instance()->proxyPort()).toString());
+		
+		bool auth = Config::instance()->proxyAuthorization();
+		proxyAuthorization->setChecked(auth);
+		proxyLogin->setEnabled(auth);
+		proxyPassword->setEnabled(auth);
+		if (auth) {
+			proxyLogin->setText(Config::instance()->proxyLogin());
+			proxyPassword->setText(Config::instance()->proxyPassword());
+		}
+	}
+
+	connect(proxyAuthorization, SIGNAL(stateChanged(int)), this, SLOT(on_proxyAuthorization_changed(int)));
+	connect(proxySave, SIGNAL(clicked()), this, SLOT(saveProxySettings()));
+}
+
+void PreferencesDialog::saveProxySettings() {
+	bool enabled = proxyEnabled->isChecked();
+	Config::instance()->setProxyEnabled(enabled);
+	if (enabled) {
+		Config::instance()->setProxyAddress(proxyAddress->text());
+		Config::instance()->setProxyPort(QVariant(proxyPort->text()).toInt());
+		bool auth = proxyAuthorization->isChecked();
+		Config::instance()->setProxyAuthorization(auth);
+		if (auth) {
+			Config::instance()->setProxyLogin(proxyLogin->text());
+			Config::instance()->setProxyPassword(proxyPassword->text());
+		}
+	}
+}
+
+void PreferencesDialog::on_proxyAuthorization_changed(int) {
+	bool auth = proxyAuthorization->isChecked();
+	proxyLogin->setEnabled(auth);
+	proxyPassword->setEnabled(auth);
 }
