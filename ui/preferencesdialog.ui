@@ -966,7 +966,7 @@
               <item row="0" column="1">
                <widget class="QSpinBox" name="autoAddPosSpin"/>
               </item>
-              <item row="0" column="2" rowspan="2">
+              <item row="0" column="2" rowspan="3">
                <spacer>
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
@@ -978,6 +978,13 @@
                  </size>
                 </property>
                </spacer>
+              </item>
+              <item row="1" column="0">
+               <widget class="QCheckBox" name="autoAddAlbumsCheck">
+                <property name="text">
+                 <string>&amp;Add whole albums</string>
+                </property>
+               </widget>
               </item>
              </layout>
             </widget>
