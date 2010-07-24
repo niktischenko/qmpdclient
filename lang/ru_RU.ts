@@ -5,57 +5,57 @@
     <name>AboutDialog</name>
     <message>
         <source>About QMPDClient</source>
-        <translation>О программе QMPDClient</translation>
+        <translation type="obsolete">О программе QMPDClient</translation>
     </message>
     <message>
         <source>&amp;About</source>
-        <translation>&amp;О программе</translation>
+        <translation type="obsolete">&amp;О программе</translation>
     </message>
     <message>
         <source>A&amp;uthors</source>
-        <translation>&amp;Авторы</translation>
+        <translation type="obsolete">&amp;Авторы</translation>
     </message>
     <message>
         <source>&amp;Thanks to</source>
-        <translation>&amp;Благодарность</translation>
+        <translation type="obsolete">&amp;Благодарность</translation>
     </message>
     <message>
         <source>&amp;License agreement</source>
-        <translation>&amp;Лицензионное соглашение</translation>
+        <translation type="obsolete">&amp;Лицензионное соглашение</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation type="obsolete">&amp;OK</translation>
     </message>
 </context>
 <context>
     <name>AbstractView</name>
     <message>
         <source>Not connected</source>
-        <translation>Нет соединения</translation>
+        <translation type="obsolete">Нет соединения</translation>
     </message>
 </context>
 <context>
     <name>AddRadioDialog</name>
     <message>
         <source>New radio station</source>
-        <translation>Новая радиостанция</translation>
+        <translation type="obsolete">Новая радиостанция</translation>
     </message>
     <message>
         <source>Title:</source>
-        <translation>Название:</translation>
+        <translation type="obsolete">Название:</translation>
     </message>
     <message>
         <source>URL:</source>
-        <translation>Расположение:</translation>
+        <translation type="obsolete">Расположение:</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation type="obsolete">&amp;OK</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>О&amp;тмена</translation>
+        <translation type="obsolete">О&amp;тмена</translation>
     </message>
 </context>
 <context>
@@ -63,7 +63,7 @@
     <message>
         <source>Not connected</source>
         <comment>qmpdclient is not connected to MPD</comment>
-        <translation>Нет соединения</translation>
+        <translation type="obsolete">Нет соединения</translation>
     </message>
     <message>
         <source>Skip to previous song in playlist (Ctrl+Page Up)</source>
@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>Ctrl+PgUp</source>
-        <translation>Ctrl+PgUp</translation>
+        <translation type="obsolete">Ctrl+PgUp</translation>
     </message>
     <message>
         <source>Play (Ctrl+Insert)</source>
@@ -79,7 +79,7 @@
     </message>
     <message>
         <source>Ctrl+Ins</source>
-        <translation>Ctrl+Ins</translation>
+        <translation type="obsolete">Ctrl+Ins</translation>
     </message>
     <message>
         <source>Pause (Ctrl+Home)</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Ctrl+Home</source>
-        <translation>Ctrl+Home</translation>
+        <translation type="obsolete">Ctrl+Home</translation>
     </message>
     <message>
         <source>Stop (Ctrl+End)</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Ctrl+End</source>
-        <translation>Ctrl+End</translation>
+        <translation type="obsolete">Ctrl+End</translation>
     </message>
     <message>
         <source>Skip to next song in playlist (Ctrl+Page Down)</source>
@@ -103,7 +103,7 @@
     </message>
     <message>
         <source>Ctrl+PgDown</source>
-        <translation>Ctrl+PgDown</translation>
+        <translation type="obsolete">Ctrl+PgDown</translation>
     </message>
     <message>
         <source>Adjust volume (Ctrl+Up/Down)</source>
@@ -119,50 +119,50 @@
     </message>
     <message>
         <source>Seek forward</source>
-        <translation>Перемотка вперед</translation>
+        <translation type="obsolete">Перемотка вперед</translation>
     </message>
     <message>
         <source>Seek backward</source>
-        <translation>Перемотка назад</translation>
+        <translation type="obsolete">Перемотка назад</translation>
     </message>
     <message>
         <source>Increase volume</source>
-        <translation>Увеличить громкость</translation>
+        <translation type="obsolete">Увеличить громкость</translation>
     </message>
     <message>
         <source>Decrease volume</source>
-        <translation>Уменьшить громкость</translation>
+        <translation type="obsolete">Уменьшить громкость</translation>
     </message>
     <message>
         <source>Skip to previous song</source>
-        <translation>К предыдущей песне</translation>
+        <translation type="obsolete">К предыдущей песне</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Играть</translation>
+        <translation type="obsolete">Играть</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Пауза</translation>
+        <translation type="obsolete">Пауза</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Стоп</translation>
+        <translation type="obsolete">Стоп</translation>
     </message>
     <message>
         <source>Skip to next song</source>
-        <translation>К следующей песне</translation>
+        <translation type="obsolete">К следующей песне</translation>
     </message>
     <message>
         <source>Lyrics</source>
-        <translation>Текст</translation>
+        <translation type="obsolete">Текст</translation>
     </message>
 </context>
 <context>
     <name>DirectoryPanel</name>
     <message>
         <source>&amp;Filter:</source>
-        <translation>&amp;Фильтр:</translation>
+        <translation type="obsolete">&amp;Фильтр:</translation>
     </message>
     <message>
         <source>&amp;Filter:</source>
@@ -174,144 +174,144 @@
     <name>DirectoryView</name>
     <message>
         <source>&amp;Enqueue</source>
-        <translation>&amp;В очередь</translation>
+        <translation type="obsolete">&amp;В очередь</translation>
     </message>
     <message>
         <source>&amp;Play</source>
-        <translation>&amp;Играть</translation>
+        <translation type="obsolete">&amp;Играть</translation>
     </message>
     <message>
         <source>&amp;Rescan directory</source>
-        <translation>&amp;Пересканировать каталог</translation>
+        <translation type="obsolete">&amp;Пересканировать каталог</translation>
     </message>
     <message>
         <source>&amp;Information...</source>
-        <translation>Сведени&amp;я...</translation>
+        <translation type="obsolete">Сведени&amp;я...</translation>
     </message>
 </context>
 <context>
     <name>JumpToSongDialog</name>
     <message>
         <source>Jump to song</source>
-        <translation>Переход на песню</translation>
+        <translation type="obsolete">Переход на песню</translation>
     </message>
     <message>
         <source>&amp;Filter:</source>
-        <translation>&amp;Фильтр:</translation>
+        <translation type="obsolete">&amp;Фильтр:</translation>
     </message>
     <message>
         <source>&amp;Jump</source>
-        <translation>&amp;Переход</translation>
+        <translation type="obsolete">&amp;Переход</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Отмена</translation>
+        <translation type="obsolete">&amp;Отмена</translation>
     </message>
 </context>
 <context>
     <name>LastFmSubmitter</name>
     <message>
         <source>Will scrobble this track.</source>
-        <translation>Этот трек будет скробблен.</translation>
+        <translation type="obsolete">Этот трек будет скробблен.</translation>
     </message>
     <message>
         <source>Scrobbling %1 songs...</source>
-        <translation>Скробблинг композиций в количестве %1...</translation>
+        <translation type="obsolete">Скробблинг композиций в количестве %1...</translation>
     </message>
     <message>
         <source>Successfully scrobbled</source>
-        <translation>Скробблинг прошёл успешено</translation>
+        <translation type="obsolete">Скробблинг прошёл успешено</translation>
     </message>
     <message>
         <source>Last.Fm authentication failed: check your credentials</source>
-        <translation>Аутентификация на Last.Fm завершилась ошибкой: проверьте свои данные</translation>
+        <translation type="obsolete">Аутентификация на Last.Fm завершилась ошибкой: проверьте свои данные</translation>
     </message>
     <message>
         <source>Cannot submit to Last.Fm: system clock is skewed</source>
-        <translation>Немозможно отправить на Last.Fm: системное время искажено</translation>
+        <translation type="obsolete">Немозможно отправить на Last.Fm: системное время искажено</translation>
     </message>
     <message>
         <source>Now Playing sent</source>
-        <translation>Проигрываемая композиция отправлена на Last.Fm</translation>
+        <translation type="obsolete">Проигрываемая композиция отправлена на Last.Fm</translation>
     </message>
     <message>
         <source>Last.Fm error: %1</source>
-        <translation>Ошибка Last.Fm: %1</translation>
+        <translation type="obsolete">Ошибка Last.Fm: %1</translation>
     </message>
 </context>
 <context>
     <name>LibraryPanel</name>
     <message>
         <source>&amp;Artist filter:</source>
-        <translation>Фильтр по &amp;исполнителю:</translation>
+        <translation type="obsolete">Фильтр по &amp;исполнителю:</translation>
     </message>
     <message>
         <source>Al&amp;bum filter:</source>
-        <translation>Фильтр по &amp;альбому:</translation>
+        <translation type="obsolete">Фильтр по &amp;альбому:</translation>
     </message>
     <message>
         <source>Son&amp;g filter:</source>
-        <translation>Фильтр по &amp;песне:</translation>
+        <translation type="obsolete">Фильтр по &amp;песне:</translation>
     </message>
 </context>
 <context>
     <name>LineEdit</name>
     <message>
         <source>Clear the filter</source>
-        <translation>Очистить</translation>
+        <translation type="obsolete">Очистить</translation>
     </message>
 </context>
 <context>
     <name>LyricsDialog</name>
     <message>
         <source>Getting lyrics from server...</source>
-        <translation>Получение текста композиции с сервера...</translation>
+        <translation type="obsolete">Получение текста композиции с сервера...</translation>
     </message>
     <message>
         <source>Dialog</source>
-        <translation>Диалог</translation>
+        <translation type="obsolete">Диалог</translation>
     </message>
     <message>
         <source>Artist</source>
-        <translation>Исполнитель</translation>
+        <translation type="obsolete">Исполнитель</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Название</translation>
+        <translation type="obsolete">Название</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Поиск</translation>
+        <translation type="obsolete">Поиск</translation>
     </message>
 </context>
 <context>
     <name>MPDCache</name>
     <message>
         <source>Reading albums</source>
-        <translation>Обновление альбомов</translation>
+        <translation type="obsolete">Обновление альбомов</translation>
     </message>
     <message>
         <source>Reading songs</source>
-        <translation>Обновление песен</translation>
+        <translation type="obsolete">Обновление песен</translation>
     </message>
     <message>
         <source>Filtering songs</source>
-        <translation>Выбор песен</translation>
+        <translation type="obsolete">Выбор песен</translation>
     </message>
     <message>
         <source>Caching songs</source>
-        <translation>Кэширование песен</translation>
+        <translation type="obsolete">Кэширование песен</translation>
     </message>
 </context>
 <context>
     <name>MPDConnection</name>
     <message>
         <source>Could not connect to server</source>
-        <translation>Невозможно соединиться с сервером</translation>
+        <translation type="obsolete">Невозможно соединиться с сервером</translation>
     </message>
     <message>
         <source>Authentication failed</source>
-        <translation>Соединение отклонено</translation>
+        <translation type="obsolete">Соединение отклонено</translation>
     </message>
     <message>
         <source>Could not connect to unix socket </source>
@@ -326,70 +326,70 @@
     <name>MPDSongView</name>
     <message>
         <source>&amp;Enqueue</source>
-        <translation>В &amp;очередь</translation>
+        <translation type="obsolete">В &amp;очередь</translation>
     </message>
     <message>
         <source>&amp;Play</source>
-        <translation>&amp;Воспроизведение</translation>
+        <translation type="obsolete">&amp;Воспроизведение</translation>
     </message>
     <message>
         <source>&amp;Information...</source>
-        <translation>Сведени&amp;я...</translation>
+        <translation type="obsolete">Сведени&amp;я...</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <source>&amp;Playlist</source>
-        <translation>&amp;Список</translation>
+        <translation type="obsolete">&amp;Список</translation>
     </message>
     <message>
         <source>&amp;Library</source>
-        <translation>&amp;Библиотека</translation>
+        <translation type="obsolete">&amp;Библиотека</translation>
     </message>
     <message>
         <source>&amp;Directories</source>
-        <translation>&amp;Каталог</translation>
+        <translation type="obsolete">&amp;Каталог</translation>
     </message>
     <message>
         <source>&amp;Internet Radio</source>
-        <translation>&amp;Интернет-радио</translation>
+        <translation type="obsolete">&amp;Интернет-радио</translation>
     </message>
     <message>
         <source>Pla&amp;ylists</source>
-        <translation>&amp;Списки</translation>
+        <translation type="obsolete">&amp;Списки</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Ошибка</translation>
+        <translation type="obsolete">Ошибка</translation>
     </message>
     <message>
         <source>Ctrl+C</source>
-        <translation>Ctrl+C</translation>
+        <translation type="obsolete">Ctrl+C</translation>
     </message>
     <message>
         <source>artists</source>
-        <translation>исполнителей</translation>
+        <translation type="obsolete">исполнителей</translation>
     </message>
     <message>
         <source>albums</source>
-        <translation>альбомов</translation>
+        <translation type="obsolete">альбомов</translation>
     </message>
     <message>
         <source>songs</source>
-        <translation>песен</translation>
+        <translation type="obsolete">песен</translation>
     </message>
     <message>
         <source>days</source>
-        <translation>дней</translation>
+        <translation type="obsolete">дней</translation>
     </message>
     <message>
         <source>hours</source>
-        <translation>часов</translation>
+        <translation type="obsolete">часов</translation>
     </message>
     <message>
         <source>minutes</source>
-        <translation>минут</translation>
+        <translation type="obsolete">минут</translation>
     </message>
     <message>
         <source>Reading library</source>
@@ -401,23 +401,23 @@
     </message>
     <message>
         <source>&amp;MPD</source>
-        <translation>&amp;Музыкальный сервер</translation>
+        <translation type="obsolete">&amp;Музыкальный сервер</translation>
     </message>
     <message>
         <source>&amp;Connect to...</source>
-        <translation>С&amp;оединиться с ...</translation>
+        <translation type="obsolete">С&amp;оединиться с ...</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Справка</translation>
+        <translation type="obsolete">&amp;Справка</translation>
     </message>
     <message>
         <source>&amp;About...</source>
-        <translation>&amp;О программе...</translation>
+        <translation type="obsolete">&amp;О программе...</translation>
     </message>
     <message>
         <source>About...</source>
-        <translation>О программе...</translation>
+        <translation type="obsolete">О программе...</translation>
     </message>
     <message>
         <source>Show about dialog...</source>
@@ -425,15 +425,15 @@
     </message>
     <message>
         <source>F1</source>
-        <translation>F1</translation>
+        <translation type="obsolete">F1</translation>
     </message>
     <message>
         <source>About &amp;Qt...</source>
-        <translation>Про &amp;Qt...</translation>
+        <translation type="obsolete">Про &amp;Qt...</translation>
     </message>
     <message>
         <source>About Qt...</source>
-        <translation>Про Qt...</translation>
+        <translation type="obsolete">Про Qt...</translation>
     </message>
     <message>
         <source>Show about Qt dialog...</source>
@@ -441,11 +441,11 @@
     </message>
     <message>
         <source>Shift+F1</source>
-        <translation>Shift+F1</translation>
+        <translation type="obsolete">Shift+F1</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Отключиться</translation>
+        <translation type="obsolete">&amp;Отключиться</translation>
     </message>
     <message>
         <source>Disconnect from MPD server</source>
@@ -453,11 +453,11 @@
     </message>
     <message>
         <source>Ctrl+D</source>
-        <translation>Ctrl+D</translation>
+        <translation type="obsolete">Ctrl+D</translation>
     </message>
     <message>
         <source>&amp;Rescan library</source>
-        <translation>&amp;Пересмотреть библиотеку</translation>
+        <translation type="obsolete">&amp;Пересмотреть библиотеку</translation>
     </message>
     <message>
         <source>Rescan library</source>
@@ -469,11 +469,11 @@
     </message>
     <message>
         <source>Ctrl+R</source>
-        <translation>Ctrl+R</translation>
+        <translation type="obsolete">Ctrl+R</translation>
     </message>
     <message>
         <source>&amp;Preferences...</source>
-        <translation>&amp;Настройки...</translation>
+        <translation type="obsolete">&amp;Настройки...</translation>
     </message>
     <message>
         <source>Preferences...</source>
@@ -485,43 +485,43 @@
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation>Ctrl+P</translation>
+        <translation type="obsolete">Ctrl+P</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>&amp;Выход</translation>
+        <translation type="obsolete">&amp;Выход</translation>
     </message>
     <message>
         <source>Quit QMPDClient</source>
-        <translation>Закрыть QMPDClient</translation>
+        <translation type="obsolete">Закрыть QMPDClient</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
-        <translation>Ctrl+Q</translation>
+        <translation type="obsolete">Ctrl+Q</translation>
     </message>
     <message>
         <source>Minimize to tray</source>
-        <translation>Свернуть в трей</translation>
+        <translation type="obsolete">Свернуть в трей</translation>
     </message>
     <message>
         <source>Connect to first server</source>
-        <translation>Соединиться с первым сервером</translation>
+        <translation type="obsolete">Соединиться с первым сервером</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Завершено</translation>
+        <translation type="obsolete">Завершено</translation>
     </message>
     <message>
         <source>Disconnect from server</source>
-        <translation>Отключиться от сервера</translation>
+        <translation type="obsolete">Отключиться от сервера</translation>
     </message>
     <message>
         <source>Rescan songs</source>
-        <translation>Пересмотреть песни</translation>
+        <translation type="obsolete">Пересмотреть песни</translation>
     </message>
     <message>
         <source>Show preferences dialog...</source>
-        <translation>Показать диалог настроек...</translation>
+        <translation type="obsolete">Показать диалог настроек...</translation>
     </message>
     <message>
         <source>&amp;Jump to current song</source>
@@ -545,39 +545,35 @@
     </message>
     <message>
         <source>L&amp;ocate current song</source>
-        <translation>&amp;Найти текущую песню</translation>
+        <translation type="obsolete">&amp;Найти текущую песню</translation>
     </message>
     <message>
         <source>Locate current song in library...</source>
-        <translation>Найти текущую песню в библиотеке...</translation>
-    </message>
-    <message>
-        <source>Ctrl+O</source>
-        <translation></translation>
+        <translation type="obsolete">Найти текущую песню в библиотеке...</translation>
     </message>
     <message>
         <source>Library:  %1 %2, %3 %4, %5 %6. (%7 %8 %9 %10 %11 %12) </source>
-        <translation>Библиотека: %1 %2, %3 %4, %5 %6. (%7 %8 %9 %10 %11 %12) </translation>
+        <translation type="obsolete">Библиотека: %1 %2, %3 %4, %5 %6. (%7 %8 %9 %10 %11 %12) </translation>
     </message>
     <message>
         <source>Playlist: </source>
-        <translation>Плейлист: </translation>
+        <translation type="obsolete">Плейлист: </translation>
     </message>
     <message>
         <source>%1 days, </source>
-        <translation>%1 дней, </translation>
+        <translation type="obsolete">%1 дней, </translation>
     </message>
     <message>
         <source>%1 hours, </source>
-        <translation>%1 часов, </translation>
+        <translation type="obsolete">%1 часов, </translation>
     </message>
     <message>
         <source>%1 minutes, </source>
-        <translation>%1 минут, </translation>
+        <translation type="obsolete">%1 минут, </translation>
     </message>
     <message>
         <source>%1 seconds.</source>
-        <translation>%1 секунд.</translation>
+        <translation type="obsolete">%1 секунд.</translation>
     </message>
 </context>
 <context>
@@ -585,172 +581,172 @@
     <message>
         <source>(%1 of %2)</source>
         <comment>This is used in the context &apos;File number (%1 of %2)&apos;.</comment>
-        <translation>(%1 из %2)</translation>
+        <translation type="obsolete">(%1 из %2)</translation>
     </message>
     <message>
         <source>File information</source>
-        <translation>Сведения о файле</translation>
+        <translation type="obsolete">Сведения о файле</translation>
     </message>
     <message>
         <source>Genre:</source>
-        <translation>Жанр:</translation>
+        <translation type="obsolete">Жанр:</translation>
     </message>
     <message>
         <source>Title:</source>
-        <translation>Название:</translation>
+        <translation type="obsolete">Название:</translation>
     </message>
     <message>
         <source>Track #:</source>
-        <translation>Дорожка №:</translation>
+        <translation type="obsolete">Дорожка №:</translation>
     </message>
     <message>
         <source>Artist:</source>
-        <translation>Исполнитель:</translation>
+        <translation type="obsolete">Исполнитель:</translation>
     </message>
     <message>
         <source>Composer:</source>
-        <translation>Композитор:</translation>
+        <translation type="obsolete">Композитор:</translation>
     </message>
     <message>
         <source>Length:</source>
-        <translation>Длина:</translation>
+        <translation type="obsolete">Длина:</translation>
     </message>
     <message>
         <source>URL:</source>
-        <translation>Расположение:</translation>
+        <translation type="obsolete">Расположение:</translation>
     </message>
     <message>
         <source>Album:</source>
-        <translation>Альбом:</translation>
+        <translation type="obsolete">Альбом:</translation>
     </message>
     <message>
         <source>Date:</source>
-        <translation>Дата:</translation>
+        <translation type="obsolete">Дата:</translation>
     </message>
     <message>
         <source>&amp;Previous</source>
-        <translation>&amp;Предыдущий</translation>
+        <translation type="obsolete">&amp;Предыдущий</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Следующий</translation>
+        <translation type="obsolete">&amp;Следующий</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation type="obsolete">&amp;OK</translation>
     </message>
     <message>
         <source>Disc:</source>
-        <translation>Диск:</translation>
+        <translation type="obsolete">Диск:</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation>Комментарий:</translation>
+        <translation type="obsolete">Комментарий:</translation>
     </message>
     <message>
         <source>Performer:</source>
-        <translation>Исполнитель:</translation>
+        <translation type="obsolete">Исполнитель:</translation>
     </message>
 </context>
 <context>
     <name>PlaylistPanel</name>
     <message>
         <source>Toggle random mode</source>
-        <translation>Переключить случайный режим</translation>
+        <translation type="obsolete">Переключить случайный режим</translation>
     </message>
     <message>
         <source>Toggle repeat playlist</source>
-        <translation>Переключить повторение списка</translation>
+        <translation type="obsolete">Переключить повторение списка</translation>
     </message>
     <message>
         <source>Jump to song...</source>
-        <translation>Перейти к песне...</translation>
+        <translation type="obsolete">Перейти к песне...</translation>
     </message>
     <message>
         <source>Shuffle playlist</source>
-        <translation>Перемешать список</translation>
+        <translation type="obsolete">Перемешать список</translation>
     </message>
     <message>
         <source>Save playlist...</source>
-        <translation>Сохранить список...</translation>
+        <translation type="obsolete">Сохранить список...</translation>
     </message>
     <message>
         <source>Remove selected songs from playlist</source>
-        <translation>Удалить выделенные песни из списка</translation>
+        <translation type="obsolete">Удалить выделенные песни из списка</translation>
     </message>
     <message>
         <source>Remove all but selected songs from playlist</source>
-        <translation>Удалить невыделенные песни из списка</translation>
+        <translation type="obsolete">Удалить невыделенные песни из списка</translation>
     </message>
     <message>
         <source>Remove all songs from playlist</source>
-        <translation>Удалить все песни из списка</translation>
+        <translation type="obsolete">Удалить все песни из списка</translation>
     </message>
     <message>
         <source>Toggle dynamic playlist</source>
-        <translation>Переключить динамический плейлист</translation>
+        <translation type="obsolete">Переключить динамический плейлист</translation>
     </message>
 </context>
 <context>
     <name>PlaylistView</name>
     <message>
         <source>J&amp;ump to song...</source>
-        <translation>&amp;Перейти к песне...</translation>
+        <translation type="obsolete">&amp;Перейти к песне...</translation>
     </message>
     <message>
         <source>Ctrl+U</source>
         <comment>This is the shortcut for &apos;Jump to song in playlist&apos;</comment>
-        <translation>Ctrl+U</translation>
+        <translation type="obsolete">Ctrl+U</translation>
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation>&amp;Удалить</translation>
+        <translation type="obsolete">&amp;Удалить</translation>
     </message>
     <message>
         <source>&amp;Crop playlist</source>
-        <translation>&amp;Обрезать список</translation>
+        <translation type="obsolete">&amp;Обрезать список</translation>
     </message>
     <message>
         <source>Remove &amp;all</source>
-        <translation>Удалить &amp;всё</translation>
+        <translation type="obsolete">Удалить &amp;всё</translation>
     </message>
     <message>
         <source>Ra&amp;ndom play</source>
-        <translation>&amp;Проигрывать вперемешку</translation>
+        <translation type="obsolete">&amp;Проигрывать вперемешку</translation>
     </message>
     <message>
         <source>Re&amp;peat play</source>
-        <translation>&amp;Повторять</translation>
+        <translation type="obsolete">&amp;Повторять</translation>
     </message>
     <message>
         <source>S&amp;huffle playlist</source>
-        <translation>&amp;Случайный список</translation>
+        <translation type="obsolete">&amp;Случайный список</translation>
     </message>
     <message>
         <source>&amp;Save playlist...</source>
-        <translation>&amp;Сохранить список...</translation>
+        <translation type="obsolete">&amp;Сохранить список...</translation>
     </message>
     <message>
         <source>&amp;Information...</source>
-        <translation>Сведени&amp;я...</translation>
+        <translation type="obsolete">Сведени&amp;я...</translation>
     </message>
     <message>
         <source>Save playlist as...</source>
-        <translation>Сохранить список как...</translation>
+        <translation type="obsolete">Сохранить список как...</translation>
     </message>
     <message>
         <source>Playlist name:</source>
-        <translation>Название списка:</translation>
+        <translation type="obsolete">Название списка:</translation>
     </message>
     <message>
         <source>A playlist with that name already exists.
 Please use another name:</source>
-        <translation>Список воспроизведения с таким названием существует.
+        <translation type="obsolete">Список воспроизведения с таким названием существует.
 Пожалуйста используйте другое название:</translation>
     </message>
     <message>
         <source>Add to queue</source>
-        <translation>Добавить в очередь</translation>
+        <translation type="obsolete">Добавить в очередь</translation>
     </message>
     <message>
         <source>Remove from queue</source>
@@ -758,41 +754,41 @@ Please use another name:</source>
     </message>
     <message>
         <source>Focus playlist</source>
-        <translation>Показать список</translation>
+        <translation type="obsolete">Показать список</translation>
     </message>
     <message>
         <source>Attention!</source>
-        <translation>Внимание!</translation>
+        <translation type="obsolete">Внимание!</translation>
     </message>
     <message>
         <source>A playlist with that name already exists.
 Overwrite?</source>
-        <translation>Плейлист с таким именем уже существует.
+        <translation type="obsolete">Плейлист с таким именем уже существует.
 Перезаписать?</translation>
     </message>
     <message>
         <source>Q</source>
         <comment>This is the shortcut for &apos;Add to queue&apos;</comment>
-        <translation>Q</translation>
+        <translation type="obsolete">Q</translation>
     </message>
 </context>
 <context>
     <name>PlaylistsPanel</name>
     <message>
         <source>Fil&amp;ter:</source>
-        <translation>&amp;Фильтр:</translation>
+        <translation type="obsolete">&amp;Фильтр:</translation>
     </message>
     <message>
         <source>&amp;Filter:</source>
-        <translation>&amp;Выбрать:</translation>
+        <translation type="obsolete">&amp;Выбрать:</translation>
     </message>
     <message>
         <source>Delete selected playlists</source>
-        <translation>Удалить выделенный список</translation>
+        <translation type="obsolete">Удалить выделенный список</translation>
     </message>
     <message>
         <source>D&amp;elete playlists</source>
-        <translation>&amp;Удалить список</translation>
+        <translation type="obsolete">&amp;Удалить список</translation>
     </message>
     <message>
         <source>Fil&amp;ter:</source>
@@ -809,14 +805,14 @@ Overwrite?</source>
     <name>PlaylistsView</name>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Удалить</translation>
+        <translation type="obsolete">&amp;Удалить</translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialog</name>
     <message>
         <source>Preferences</source>
-        <translation>Настройки</translation>
+        <translation type="obsolete">Настройки</translation>
     </message>
     <message>
         <source>Title</source>
@@ -904,55 +900,55 @@ Overwrite?</source>
     </message>
     <message>
         <source>Servers</source>
-        <translation>Сервера</translation>
+        <translation type="obsolete">Сервера</translation>
     </message>
     <message>
         <source>A&amp;dd</source>
-        <translation>&amp;Добавить</translation>
+        <translation type="obsolete">&amp;Добавить</translation>
     </message>
     <message>
         <source>De&amp;lete</source>
-        <translation>&amp;Удалить</translation>
+        <translation type="obsolete">&amp;Удалить</translation>
     </message>
     <message>
         <source>A&amp;uto connect to first server on startup</source>
-        <translation>&amp;Автоматическое соединение с первым по списку сервером</translation>
+        <translation type="obsolete">&amp;Автоматическое соединение с первым по списку сервером</translation>
     </message>
     <message>
         <source>Connection &amp;timeout:</source>
-        <translation>Задержка &amp;подключения:</translation>
+        <translation type="obsolete">Задержка &amp;подключения:</translation>
     </message>
     <message>
         <source>seconds</source>
-        <translation>секунды</translation>
+        <translation type="obsolete">секунды</translation>
     </message>
     <message>
         <source>&amp;Reconnect to MPD if connection is lost</source>
-        <translation>&amp;Соединиться с MPD при потере соединения</translation>
+        <translation type="obsolete">&amp;Соединиться с MPD при потере соединения</translation>
     </message>
     <message>
         <source>S&amp;econds between reconnect attempts:</source>
-        <translation>&amp;Задержка переподключения:</translation>
+        <translation type="obsolete">&amp;Задержка переподключения:</translation>
     </message>
     <message>
         <source>Cross&amp;fade on song change</source>
-        <translation>&amp;Задержка при смене песни</translation>
+        <translation type="obsolete">&amp;Задержка при смене песни</translation>
     </message>
     <message>
         <source>Cro&amp;ssfade for:</source>
-        <translation>&amp;Задержка:</translation>
+        <translation type="obsolete">&amp;Задержка:</translation>
     </message>
     <message>
         <source>Output devices</source>
-        <translation>Устройства вывода</translation>
+        <translation type="obsolete">Устройства вывода</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Задействовать</translation>
+        <translation type="obsolete">Задействовать</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Название</translation>
+        <translation type="obsolete">Название</translation>
     </message>
     <message>
         <source>Double click action</source>
@@ -960,23 +956,23 @@ Overwrite?</source>
     </message>
     <message>
         <source>&amp;Play item</source>
-        <translation>&amp;Играть песню</translation>
+        <translation type="obsolete">&amp;Играть песню</translation>
     </message>
     <message>
         <source>&amp;Enqueue item</source>
-        <translation>Песню &amp;в очередь</translation>
+        <translation type="obsolete">Песню &amp;в очередь</translation>
     </message>
     <message>
         <source>A&amp;lternating row colors</source>
-        <translation>Альтернативные цв&amp;ета</translation>
+        <translation type="obsolete">Альтернативные цв&amp;ета</translation>
     </message>
     <message>
         <source>A&amp;uto resize columns</source>
-        <translation>Автоматическая &amp;ширина колонок</translation>
+        <translation type="obsolete">Автоматическая &amp;ширина колонок</translation>
     </message>
     <message>
         <source>Opa&amp;que splitter resizing</source>
-        <translation>Видимое перемещение &amp;разделителей</translation>
+        <translation type="obsolete">Видимое перемещение &amp;разделителей</translation>
     </message>
     <message>
         <source>&amp;Recursive directory view</source>
@@ -984,27 +980,27 @@ Overwrite?</source>
     </message>
     <message>
         <source>Font:</source>
-        <translation>Шрифт:</translation>
+        <translation type="obsolete">Шрифт:</translation>
     </message>
     <message>
         <source>C&amp;hoose...</source>
-        <translation>В&amp;ыбор...</translation>
+        <translation type="obsolete">В&amp;ыбор...</translation>
     </message>
     <message>
         <source>Title format</source>
-        <translation>Формат заголовка</translation>
+        <translation type="obsolete">Формат заголовка</translation>
     </message>
     <message>
         <source>Title &amp;format:</source>
-        <translation>&amp;Формат заголовка:</translation>
+        <translation type="obsolete">&amp;Формат заголовка:</translation>
     </message>
     <message>
         <source>Center playing &amp;song</source>
-        <translation>&amp;Центрировать играемую песню</translation>
+        <translation type="obsolete">&amp;Центрировать играемую песню</translation>
     </message>
     <message>
         <source>Enable &amp;translations</source>
-        <translation>&amp;Использовать перевод</translation>
+        <translation type="obsolete">&amp;Использовать перевод</translation>
     </message>
     <message>
         <source>Use system locale</source>
@@ -1028,67 +1024,67 @@ Overwrite?</source>
     </message>
     <message>
         <source>&amp;Remove played songs from playlist</source>
-        <translation>&amp;Удалять прослушанную композицию из списка</translation>
+        <translation type="obsolete">&amp;Удалять прослушанную композицию из списка</translation>
     </message>
     <message>
         <source>&amp;Enable notifications</source>
-        <translation>&amp;Включить уведомление</translation>
+        <translation type="obsolete">&amp;Включить уведомление</translation>
     </message>
     <message>
         <source>&amp;Show for:</source>
-        <translation>&amp;Показывать:</translation>
+        <translation type="obsolete">&amp;Показывать:</translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Положение</translation>
+        <translation type="obsolete">Положение</translation>
     </message>
     <message>
         <source>Bottom-right</source>
-        <translation>Внизу справа</translation>
+        <translation type="obsolete">Внизу справа</translation>
     </message>
     <message>
         <source>Desktop</source>
-        <translation>Рабочий стол</translation>
+        <translation type="obsolete">Рабочий стол</translation>
     </message>
     <message>
         <source>Right-middle</source>
-        <translation>Справа по середине</translation>
+        <translation type="obsolete">Справа по середине</translation>
     </message>
     <message>
         <source>Top-right</source>
-        <translation>Вверху справа</translation>
+        <translation type="obsolete">Вверху справа</translation>
     </message>
     <message>
         <source>Bottom-middle</source>
-        <translation>Внизу по середине</translation>
+        <translation type="obsolete">Внизу по середине</translation>
     </message>
     <message>
         <source>Top-middle</source>
-        <translation>Вверху по середине</translation>
+        <translation type="obsolete">Вверху по середине</translation>
     </message>
     <message>
         <source>Left-middle</source>
-        <translation>Слева по середине</translation>
+        <translation type="obsolete">Слева по середине</translation>
     </message>
     <message>
         <source>Top-left</source>
-        <translation>Вверху слева</translation>
+        <translation type="obsolete">Вверху слева</translation>
     </message>
     <message>
         <source>Bottom-left</source>
-        <translation>Внизу слева</translation>
+        <translation type="obsolete">Внизу слева</translation>
     </message>
     <message>
         <source>&amp;Enable tag guesser</source>
-        <translation>&amp;Включить запрос по меткам</translation>
+        <translation type="obsolete">&amp;Включить запрос по меткам</translation>
     </message>
     <message>
         <source>&amp;Guess pattern:</source>
-        <translation>&amp;Шаблон запроса:</translation>
+        <translation type="obsolete">&amp;Шаблон запроса:</translation>
     </message>
     <message>
         <source>&amp;Test filename:</source>
-        <translation>&amp;Образец названия:</translation>
+        <translation type="obsolete">&amp;Образец названия:</translation>
     </message>
     <message>
         <source>%b = Band/Artist
@@ -1097,7 +1093,7 @@ Overwrite?</source>
 %t = Title
 %i = Ignore part of file name
 </source>
-        <translation>%b = Группа/Исполнитель
+        <translation type="obsolete">%b = Группа/Исполнитель
 %a = Альбом
 %n = Дорожка
 %t = Название
@@ -1105,35 +1101,35 @@ Overwrite?</source>
     </message>
     <message>
         <source>Guess results</source>
-        <translation>Результат запроса</translation>
+        <translation type="obsolete">Результат запроса</translation>
     </message>
     <message>
         <source>Track:</source>
-        <translation>Дорожка:</translation>
+        <translation type="obsolete">Дорожка:</translation>
     </message>
     <message>
         <source>Title:</source>
-        <translation>Название:</translation>
+        <translation type="obsolete">Название:</translation>
     </message>
     <message>
         <source>Album:</source>
-        <translation>Альбом:</translation>
+        <translation type="obsolete">Альбом:</translation>
     </message>
     <message>
         <source>Artist:</source>
-        <translation>Исполнитель:</translation>
+        <translation type="obsolete">Исполнитель:</translation>
     </message>
     <message>
         <source>&amp;Enable tray icon</source>
-        <translation>&amp;Включить значок в трее</translation>
+        <translation type="obsolete">&amp;Включить значок в трее</translation>
     </message>
     <message>
         <source>Close button &amp;minimizes to tray</source>
-        <translation>Кнопка закрыть &amp;сворачивает в трей</translation>
+        <translation type="obsolete">Кнопка закрыть &amp;сворачивает в трей</translation>
     </message>
     <message>
         <source>Start QMPDClient &amp;hidden</source>
-        <translation>Запускать QMPDClient &amp;свернутым</translation>
+        <translation type="obsolete">Запускать QMPDClient &amp;свернутым</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1177,51 +1173,47 @@ Overwrite?</source>
     </message>
     <message>
         <source>Filter songs by...</source>
-        <translation>Выбрать песни по...</translation>
+        <translation type="obsolete">Выбрать песни по...</translation>
     </message>
     <message>
         <source>selected &amp;artist and album</source>
-        <translation>&amp;Исполнтелю и альбому</translation>
+        <translation type="obsolete">&amp;Исполнтелю и альбому</translation>
     </message>
     <message>
         <source>selected al&amp;bum only</source>
-        <translation>&amp;Альбому</translation>
+        <translation type="obsolete">&amp;Альбому</translation>
     </message>
     <message>
         <source>&amp;Show &apos;All&apos; and &apos;Not tagged&apos; (Slow)</source>
-        <translation>Показывать &quot;&amp;Все&quot; и &quot;Без тэгов&quot; (Медленно)</translation>
+        <translation type="obsolete">Показывать &quot;&amp;Все&quot; и &quot;Без тэгов&quot; (Медленно)</translation>
     </message>
     <message>
         <source>&amp;Recursive directory view (Slow)</source>
-        <translation>Просмотр вложенных &amp;каталогов (Медленно)</translation>
+        <translation type="obsolete">Просмотр вложенных &amp;каталогов (Медленно)</translation>
     </message>
     <message>
         <source>Show album c&amp;over art</source>
-        <translation>Показывать &amp;обложку альбома</translation>
+        <translation type="obsolete">Показывать &amp;обложку альбома</translation>
     </message>
     <message>
         <source>&amp;Path to MPD music root:</source>
-        <translation>&amp;Путь к каталогу с музыкой MPD:</translation>
+        <translation type="obsolete">&amp;Путь к каталогу с музыкой MPD:</translation>
     </message>
     <message>
         <source>&amp;Notifier:</source>
-        <translation>&amp;Уведомитель:</translation>
+        <translation type="obsolete">&amp;Уведомитель:</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Закрыть</translation>
-    </message>
-    <message>
-        <source>Last.Fm</source>
-        <translation></translation>
+        <translation type="obsolete">&amp;Закрыть</translation>
     </message>
     <message>
         <source>&amp;Fill up playlist with random songs</source>
-        <translation>&amp;Заполнить список случайными композициями</translation>
+        <translation type="obsolete">&amp;Заполнить список случайными композициями</translation>
     </message>
     <message>
         <source>&amp;When less than that songs left:</source>
-        <translation>&amp;Когда до конца списка их не менее чем:</translation>
+        <translation type="obsolete">&amp;Когда до конца списка их не менее чем:</translation>
     </message>
     <message>
         <source>Submit played songs to Last.Fm</source>
@@ -1229,7 +1221,7 @@ Overwrite?</source>
     </message>
     <message>
         <source>Username:</source>
-        <translation>Пользователь:</translation>
+        <translation type="obsolete">Пользователь:</translation>
     </message>
     <message>
         <source>Password:</source>
@@ -1237,19 +1229,19 @@ Overwrite?</source>
     </message>
     <message>
         <source>Max Height:</source>
-        <translation>Максимальная высота:</translation>
+        <translation type="obsolete">Максимальная высота:</translation>
     </message>
     <message>
         <source>1024</source>
-        <translation>1024</translation>
+        <translation type="obsolete">1024</translation>
     </message>
     <message>
         <source>Max Width:</source>
-        <translation>Максимальная ширина:</translation>
+        <translation type="obsolete">Максимальная ширина:</translation>
     </message>
     <message>
         <source>768</source>
-        <translation>768</translation>
+        <translation type="obsolete">768</translation>
     </message>
     <message>
         <source>Overwrite playlist if exist</source>
@@ -1265,43 +1257,79 @@ Overwrite?</source>
     </message>
     <message>
         <source>Double click / enter action</source>
-        <translation>Действие по двойному клику / Enter</translation>
+        <translation type="obsolete">Действие по двойному клику / Enter</translation>
     </message>
     <message>
         <source>Disregard leading &apos;The &apos; when sorting</source>
-        <translation>Не обращать внимания на &apos;The &apos; в начале при сортировке</translation>
+        <translation type="obsolete">Не обращать внимания на &apos;The &apos; в начале при сортировке</translation>
     </message>
     <message>
         <source>Enable extended song info</source>
-        <translation>Включить дополнительную информацию о песне</translation>
+        <translation type="obsolete">Включить дополнительную информацию о песне</translation>
     </message>
     <message>
         <source>Submit played tracks to Last.Fm</source>
-        <translation>Передавать проигранные треки на Last.Fm</translation>
+        <translation type="obsolete">Передавать проигранные треки на Last.Fm</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Пароль</translation>
+        <translation type="obsolete">Пароль</translation>
     </message>
     <message>
         <source>Plain</source>
-        <translation>Открытым текстом</translation>
+        <translation type="obsolete">Открытым текстом</translation>
     </message>
     <message>
         <source>MD5</source>
-        <translation>MD5</translation>
+        <translation type="obsolete">MD5</translation>
     </message>
     <message>
         <source>Calculate MD5</source>
-        <translation>Вычислить MD5</translation>
+        <translation type="obsolete">Вычислить MD5</translation>
     </message>
     <message>
         <source>Timer</source>
-        <translation>Таймер</translation>
+        <translation type="obsolete">Таймер</translation>
     </message>
     <message>
         <source>Percent of song played:</source>
-        <translation>Процентов от песни проиграно:</translation>
+        <translation type="obsolete">Процентов от песни проиграно:</translation>
+    </message>
+    <message>
+        <source>Save transient settings</source>
+        <translation type="obsolete">Сохранить промежуточные настройки</translation>
+    </message>
+    <message>
+        <source>&amp;Add whole albums</source>
+        <translation type="obsolete">&amp;Добавить альбом целиком</translation>
+    </message>
+    <message>
+        <source>Enable proxy</source>
+        <translation type="obsolete">Использовать прокси</translation>
+    </message>
+    <message>
+        <source>Proxy address:</source>
+        <translation type="obsolete">Адрес прокси:</translation>
+    </message>
+    <message>
+        <source>:</source>
+        <translation type="obsolete">:</translation>
+    </message>
+    <message>
+        <source>Need authorization</source>
+        <translation type="obsolete">Необходима авторизация</translation>
+    </message>
+    <message>
+        <source>Login:</source>
+        <translation type="obsolete">Логин:</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation type="obsolete">Сохранить</translation>
+    </message>
+    <message>
+        <source>Last.Fm</source>
+        <translation>Last.Fm</translation>
     </message>
 </context>
 <context>
@@ -1309,64 +1337,64 @@ Overwrite?</source>
     <message>
         <source>Directory</source>
         <comment>This is used as the header of directory-tree in directory view</comment>
-        <translation>Каталог</translation>
+        <translation type="obsolete">Каталог</translation>
     </message>
     <message>
         <source>Playlist</source>
-        <translation>Список воспроизведения</translation>
+        <translation type="obsolete">Список воспроизведения</translation>
     </message>
     <message>
         <source>Stream</source>
-        <translation>Поток</translation>
+        <translation type="obsolete">Поток</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Название</translation>
+        <translation type="obsolete">Название</translation>
     </message>
     <message>
         <source>Track</source>
-        <translation>Дорожка</translation>
+        <translation type="obsolete">Дорожка</translation>
     </message>
     <message>
         <source>Artist</source>
-        <translation>Исполнитель</translation>
+        <translation type="obsolete">Исполнитель</translation>
     </message>
     <message>
         <source>Album</source>
-        <translation>Альбом</translation>
+        <translation type="obsolete">Альбом</translation>
     </message>
     <message>
         <source>Length</source>
-        <translation>Длина</translation>
+        <translation type="obsolete">Длина</translation>
     </message>
     <message>
         <source>URL</source>
-        <translation>Расположение</translation>
+        <translation type="obsolete">Расположение</translation>
     </message>
     <message>
         <source>Filename</source>
-        <translation>Имя файла</translation>
+        <translation type="obsolete">Имя файла</translation>
     </message>
     <message>
         <source>Genre</source>
-        <translation>Жанр</translation>
+        <translation type="obsolete">Жанр</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation type="obsolete">Дата</translation>
     </message>
     <message>
         <source>Composer</source>
-        <translation>Композитор</translation>
+        <translation type="obsolete">Композитор</translation>
     </message>
     <message>
         <source>Root</source>
         <comment>This is the name of the root directory in the directory browser</comment>
-        <translation>Корень</translation>
+        <translation type="obsolete">Корень</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Название</translation>
+        <translation type="obsolete">Название</translation>
     </message>
     <message>
         <source>Host address</source>
@@ -1374,16 +1402,16 @@ Overwrite?</source>
     </message>
     <message>
         <source>Port</source>
-        <translation>Порт</translation>
+        <translation type="obsolete">Порт</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Пароль</translation>
+        <translation type="obsolete">Пароль</translation>
     </message>
     <message>
         <source>All</source>
         <comment>This is the first item in the artist and album views, meaning &quot;All artists&quot; or &quot;All albums&quot;</comment>
-        <translation>Все</translation>
+        <translation type="obsolete">Все</translation>
     </message>
     <message>
         <source>Not tagged</source>
@@ -1392,63 +1420,63 @@ Overwrite?</source>
     </message>
     <message>
         <source>No cover art found.</source>
-        <translation>Обложка не найдена.</translation>
+        <translation type="obsolete">Обложка не найдена.</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Комментарий</translation>
+        <translation type="obsolete">Комментарий</translation>
     </message>
     <message>
         <source>Disc</source>
-        <translation>Диск</translation>
+        <translation type="obsolete">Диск</translation>
     </message>
     <message>
         <source>Performer</source>
-        <translation>Исполнитель</translation>
+        <translation type="obsolete">Исполнитель</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation type="obsolete">Адрес</translation>
     </message>
     <message>
         <source>Action</source>
-        <translation>Действие</translation>
+        <translation type="obsolete">Действие</translation>
     </message>
     <message>
         <source>Shortcut</source>
-        <translation>Ссылка</translation>
+        <translation type="obsolete">Ссылка</translation>
     </message>
     <message>
         <source>Not tagged</source>
         <comment>This is the second item in the artist and album views, meaning &quot;Songs belonging to no artist or no albums&quot;</comment>
-        <translation>Не отмечено</translation>
+        <translation type="obsolete">Не отмечено</translation>
     </message>
     <message>
         <source>Not tagged</source>
-        <translation>Не отмечено</translation>
+        <translation type="obsolete">Не отмечено</translation>
     </message>
 </context>
 <context>
     <name>RadioPanel</name>
     <message>
         <source>&amp;Filter:</source>
-        <translation>&amp;Фильтр:</translation>
+        <translation type="obsolete">&amp;Фильтр:</translation>
     </message>
     <message>
         <source>Add new radio station...</source>
-        <translation>Добавить новую радиостанцию...</translation>
+        <translation type="obsolete">Добавить новую радиостанцию...</translation>
     </message>
     <message>
         <source>&amp;New radio station...</source>
-        <translation>&amp;Новая радиостанция...</translation>
+        <translation type="obsolete">&amp;Новая радиостанция...</translation>
     </message>
     <message>
         <source>Delete selected radio stations</source>
-        <translation>Удалить выбранную радиостанцию</translation>
+        <translation type="obsolete">Удалить выбранную радиостанцию</translation>
     </message>
     <message>
         <source>D&amp;elete radio stations</source>
-        <translation>&amp;Удалить радиостанции</translation>
+        <translation type="obsolete">&amp;Удалить радиостанции</translation>
     </message>
     <message>
         <source>&amp;Filter:</source>
@@ -1460,89 +1488,89 @@ Overwrite?</source>
     <name>RadioView</name>
     <message>
         <source>&amp;New...</source>
-        <translation>&amp;Новый...</translation>
+        <translation type="obsolete">&amp;Новый...</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Удалить</translation>
+        <translation type="obsolete">&amp;Удалить</translation>
     </message>
 </context>
 <context>
     <name>StringListView</name>
     <message>
         <source>&amp;Enqueue</source>
-        <translation>&amp;В очередь</translation>
+        <translation type="obsolete">&amp;В очередь</translation>
     </message>
     <message>
         <source>&amp;Play</source>
-        <translation>&amp;Играть</translation>
+        <translation type="obsolete">&amp;Играть</translation>
     </message>
     <message>
         <source>&amp;Information...</source>
-        <translation>Сведени&amp;я...</translation>
+        <translation type="obsolete">Сведени&amp;я...</translation>
     </message>
 </context>
 <context>
     <name>TimeSlider</name>
     <message>
         <source>Streaming</source>
-        <translation>Поток</translation>
+        <translation type="obsolete">Поток</translation>
     </message>
 </context>
 <context>
     <name>TrayIcon</name>
     <message>
         <source>Next</source>
-        <translation>Следующий</translation>
+        <translation type="obsolete">Следующий</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Играть</translation>
+        <translation type="obsolete">Играть</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Пауза</translation>
+        <translation type="obsolete">Пауза</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Стоп</translation>
+        <translation type="obsolete">Стоп</translation>
     </message>
     <message>
         <source>Previuos</source>
-        <translation>Предыдущий</translation>
+        <translation type="obsolete">Предыдущий</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Выход</translation>
+        <translation type="obsolete">Выход</translation>
     </message>
     <message>
         <source>Not playing</source>
         <comment>This is for the trayicon tooltip, indicating that no song is playing</comment>
-        <translation>Не играет</translation>
+        <translation type="obsolete">Не играет</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Спрятать</translation>
+        <translation type="obsolete">Спрятать</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Показать</translation>
+        <translation type="obsolete">Показать</translation>
     </message>
     <message>
         <source>Volume</source>
-        <translation>Громкость</translation>
+        <translation type="obsolete">Громкость</translation>
     </message>
 </context>
 <context>
     <name>TraySongInfo</name>
     <message>
         <source>Not playing</source>
-        <translation>Не играю</translation>
+        <translation type="obsolete">Не играю</translation>
     </message>
     <message>
         <source>from</source>
         <comment>Means some song `from` some album</comment>
-        <translation>с</translation>
+        <translation type="obsolete">с</translation>
     </message>
 </context>
 </TS>
