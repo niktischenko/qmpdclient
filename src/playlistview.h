@@ -36,6 +36,9 @@ public:
 
 public slots:
 	void updateTranslation();
+	void moveSelectionDown();
+	void moveSelectionUp();
+	void activateSelected();
 
 signals:
 	void toggleActions(bool);

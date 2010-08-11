@@ -45,6 +45,13 @@ private:
 
 	bool m_hover, m_forceNoHover;
 	QPixmap m_pixmap, m_hoverPixmap;
-	QRect m_pixmapRect;
+	QRect m_pixmapRect;		
+
+	void keyPressEvent(QKeyEvent *);
+
+signals:
+	void moveSelectionDown();
+	void moveSelectionUp();
+	void activateSelected();
 };
 #endif

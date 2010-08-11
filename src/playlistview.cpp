@@ -266,3 +266,24 @@ void PlaylistView::queueSelectedSong() {
 void PlaylistView::setFilter(const QString &needle) {
 	m_model->setFilter(needle);
 }
+
+void PlaylistView::moveSelectionDown() {
+	QModelIndex idx = currentIndex();
+	QModelIndex index = idx.sibling(idx.row()+1, idx.column());
+
+	if (index.isValid() && index.row() > 0)
+		setCurrentIndex(index);
+}
+
+void PlaylistView::moveSelectionUp() {
+	QModelIndex idx = currentIndex();
+	QModelIndex index = idx.sibling(idx.row()-1, idx.column());
+
+	if (index.isValid() && index.row() >= 0)
+		setCurrentIndex(index);
+}
+
+void PlaylistView::activateSelected() {
+	QModelIndex idx = currentIndex();
+	emit activated(idx);
+}
