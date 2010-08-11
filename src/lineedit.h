@@ -52,6 +52,5 @@ private:
 signals:
 	void moveSelectionDown();
 	void moveSelectionUp();
-	void activateSelected();
 };
 #endif

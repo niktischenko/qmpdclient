@@ -117,9 +117,6 @@ void LineEdit::keyPressEvent(QKeyEvent *event) {
 	case Qt::Key_Up:
 		emit moveSelectionUp();
 		break;
-	case Qt::Key_Enter:
-		emit activateSelected();
-		break;
 	default:
 		QLineEdit::keyPressEvent(event);
 	}
