@@ -108,3 +108,16 @@ bool LineEdit::event(QEvent *e) {
 	}
 	return QLineEdit::event(e);
 }
+
+void LineEdit::keyPressEvent(QKeyEvent *event) {
+	switch (event->key()) {
+	case Qt::Key_Down:
+		emit moveSelectionDown();
+		break;
+	case Qt::Key_Up:
+		emit moveSelectionUp();
+		break;
+	default:
+		QLineEdit::keyPressEvent(event);
+	}
+}

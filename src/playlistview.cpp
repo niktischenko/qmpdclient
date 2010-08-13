@@ -69,9 +69,8 @@ PlaylistView::PlaylistView(QWidget *parent) : AbstractList(parent) {
 	connect(MPD::instance(), SIGNAL(repeatUpdated(bool)), m_repeatAction, SLOT(setChecked(bool)));
 	connect(m_randomAction, SIGNAL(toggled(bool)), MPD::instance(), SLOT(setRandom(bool)));
 	connect(m_repeatAction, SIGNAL(toggled(bool)), MPD::instance(), SLOT(setRepeat(bool)));
-	// Disconnect the default action in AbstractList
-	disconnect(this, SIGNAL(activated(const QModelIndex &)), this, SLOT(activated(const QModelIndex &)));
-	connect(this, SIGNAL(doubleClicked(const QModelIndex &)), this, SLOT(indexActivated(const QModelIndex &)));
+	// This connection works with double-click and enter key (depends on system settings)
+	connect(this, SIGNAL(activated(const QModelIndex &)), this, SLOT(indexActivated(const QModelIndex &)));
 
 	m_focusKey = new QShortcut(Qt::ALT | Qt::SHIFT | Qt::Key_P, this, SLOT(setFocus()));
 	m_focusKey->setObjectName("focusPlaylistKey");
@@ -266,4 +265,25 @@ void PlaylistView::queueSelectedSong() {
 
 void PlaylistView::setFilter(const QString &needle) {
 	m_model->setFilter(needle);
+}
+
+void PlaylistView::moveSelectionDown() {
+	QModelIndex idx = currentIndex();
+	QModelIndex index = idx.sibling(idx.row()+1, idx.column());
+
+	if (index.isValid() && index.row() > 0)
+		setCurrentIndex(index);
+}
+
+void PlaylistView::moveSelectionUp() {
+	QModelIndex idx = currentIndex();
+	QModelIndex index = idx.sibling(idx.row()-1, idx.column());
+
+	if (index.isValid() && index.row() >= 0)
+		setCurrentIndex(index);
+}
+
+void PlaylistView::activateSelected() {
+	QModelIndex idx = currentIndex();
+	emit activated(idx);
 }

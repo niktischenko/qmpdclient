@@ -46,6 +46,9 @@ PlaylistPanel::PlaylistPanel() {
 	
 	// Filter
 	connect(filter, SIGNAL(textChanged(const QString &)), this, SLOT(updateFilter(const QString &)));
+	connect(filter, SIGNAL(moveSelectionDown()), playlistView, SLOT(moveSelectionDown()));
+	connect(filter, SIGNAL(moveSelectionUp()), playlistView, SLOT(moveSelectionUp()));
+	connect(filter, SIGNAL(returnPressed()), playlistView, SLOT(activateSelected()));
 }
 
 void PlaylistPanel::updateTranslation() {
