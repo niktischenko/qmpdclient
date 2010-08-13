@@ -22,24 +22,22 @@
 #include "config.h"
 #include "mpdsong.h"
 
-#include <QHttp>
-#include <QHttpRequestHeader>
+#include <QNetworkProxy>
 
 LyricsDialog::LyricsDialog(QWidget *parent) : QDialog(parent) {
 	setupUi(this);
-	lyricsBrowser->setOpenLinks(false);
-	m_http = new QHttp("www.lyricsplugin.com", 80, this);
 	if (Config::instance()->proxyEnabled()) {
 		QString address = Config::instance()->proxyAddress();
 		int port = Config::instance()->proxyPort();
 		if (Config::instance()->proxyAuthorization()) {
 			QString login = Config::instance()->proxyLogin();
 			QString password = Config::instance()->proxyPassword();
-			m_http->setProxy(address, port, login, password);
+			QNetworkProxy::setApplicationProxy(QNetworkProxy(QNetworkProxy::HttpProxy, address, port, login, password));
 		}
-		m_http->setProxy(address, port);
+		QNetworkProxy::setApplicationProxy(QNetworkProxy(QNetworkProxy::HttpProxy, address, port));
+	} else {
+		QNetworkProxy::setApplicationProxy(QNetworkProxy::NoProxy);
 	}
-	connect(m_http, SIGNAL(requestFinished(int,bool)), this, SLOT(gotResponse(int,bool)));
 }
 
 void LyricsDialog::show() {
@@ -51,11 +49,11 @@ void LyricsDialog::updateLyrics() {
 	setWindowTitle(QString("Lyrics: %1 by %2").arg(m_title, m_artist));
 	artistEdit->setText(m_artist);
 	titleEdit->setText(m_title);
-	lyricsBrowser->setPlainText(tr("Getting lyrics from server..."));
+	lyricsBrowser->setHtml(tr("Getting lyrics from server..."));
 	QUrl req("http://www.lyricsplugin.com/winamp03/plugin/");
 	req.addQueryItem("artist", m_artist);
 	req.addQueryItem("title", m_title);
-	m_http->get(req.toEncoded());
+	lyricsBrowser->setUrl(req);
 }
 
 
@@ -65,15 +63,6 @@ void LyricsDialog::setSong(const MPDSong &s) {
 	if(!isHidden()) updateLyrics();
 }
 
-void LyricsDialog::gotResponse(int id, bool error) {
-	Q_UNUSED(id);
-	if(error) lyricsBrowser->setPlainText(m_http->errorString());
-	else
-	{
-		QByteArray txt = m_http->readAll();
-		lyricsBrowser->setHtml(QString::fromUtf8(txt.data()));
-	}
-}
 
 void LyricsDialog::setUserSong() {
 	m_artist = artistEdit->text();
