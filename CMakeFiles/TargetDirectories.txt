@@ -1,0 +1,1 @@
+/home/somebody/projects/qmpdclient/CMakeFiles/qmpdclient.dir

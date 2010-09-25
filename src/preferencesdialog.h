@@ -56,6 +56,8 @@ private slots:
 	void setLastFmSlider(int);
 	void setLastFmSpiner(int);
 	void saveProxySettings();
+	void setLastFmServer();
+	void setLibreFmServer();
 
 private:
 	void initCategoryList();
